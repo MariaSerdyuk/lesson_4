@@ -1,0 +1,99 @@
+/*------Подключение шрифтов-------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Larsseit-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+body {
+	font-family: "Larsseit";
+}
+h2 {
+	font-family: "Lato";
+	font-weight: 800;
+}
+h1{
+	font-family: "Roboto";
+}
+/* ------Селекторы--------*/
+div{
+	color:navy;
+}
+.list{
+	color: darkorange;
+}
+#acquaintance{
+	color: crimson;
+}
+div.kumixo{
+	color: darkorange;
+}
+.text.variants{
+	color: darkgreen;
+}
+.text.variants p{
+	color: black;
+}
+.text.folk > p{
+	color: darkolivegreen;
+}
+.text.variants + p{
+	color:deeppink;
+}
+.text.treasure ~ p{
+	color:navy;
+}
+.folk h3{
+	color: blueviolet;
+}
+.modern,
+.conclusion{
+	color:green;
+}
+.future *{
+	color: plum;
+}
+#final{
+	color: black;
+}
+#legend,
+#bead {
+	color: fuchsia;
+}
